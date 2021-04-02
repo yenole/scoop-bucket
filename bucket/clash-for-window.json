@@ -1,5 +1,5 @@
 {
-    "version": "0.15.1",
+    "version": "0.15.0",
     "description": "A Windows/macOS GUI based on Clash",
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "license": "GPL-2.0-only",
@@ -24,10 +24,6 @@
             "64bit": {
                 "url": "https://github.91chifun.workers.dev/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/$matchFull-win.7z"
             }
-        },
-        "hash": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/tag/$version",
-            "regex": "<td>$basename</td>\\s*<td>$sha256</td>"
         }
     }
 }
