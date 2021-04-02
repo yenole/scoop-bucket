@@ -1,0 +1,29 @@
+{
+    "version": "6.0.5.30302",
+    "description": "DingTalk for Windows",
+    "homepage": "https://page.dingtalk.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v6.0.5.30302.exe#/dingtalk.7z",
+            "hash": "37a6aca606403bcdd559b6d17cb189c188141bf17f8e00d0a3a3ffc8ac78ace5"
+        }
+    },
+    "shortcuts": [
+        [
+            "DingtalkLauncher.exe",
+            "DingTalk"
+        ]
+    ],
+    "checkver": {
+        "url": "https://page.dingtalk.com/wow/dingtalk/act/en-download",
+        "regex": "Release/DingTalk_v([\\w.]+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v$version.exe#/dingtalk.7z"
+            }
+        }
+    }
+}
