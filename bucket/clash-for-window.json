@@ -9,7 +9,6 @@
             "hash": "5be2ca33343b11d6c30e6e3c1d141a38a95b84b31a34423f8535c356e9db0aed"
         }
     },
-    "bin": [],
     "shortcuts": [
         [
             "Clash for Windows.exe",
@@ -18,7 +17,7 @@
     ],
     "checkver": {
         "github": "https://github.com/Fndroid/clash_for_windows_pkg",
-        "regex": "v([\\w.]+)/Clash.for.Window-(?<full>[\\w.]+)-win.7z"
+        "regex": "([\\w.]+)/Clash.for.Windows-(?<full>[\\w.]+)-win.7z"
     },
     "autoupdate": {
         "architecture": {
