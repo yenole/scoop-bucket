@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.91chifun.workers.dev/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.1/Clash.for.Windows-0.15.1-win.7z",
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.1/Clash.for.Windows-0.15.1-win.7z",
             "hash": "5be2ca33343b11d6c30e6e3c1d141a38a95b84b31a34423f8535c356e9db0aed"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.91chifun.workers.dev/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/$matchFull-win.7z"
+                "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/$matchFull-win.7z"
             }
         }
     }
