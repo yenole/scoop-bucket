@@ -1,12 +1,12 @@
 {
-    "version": "3.2.1",
+    "version": "3.3.0",
     "description": "WeChat for Windows",
     "homepage": "https://pc.weixin.qq.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/wechat.7z",
-            "hash": "ddc5e7ab62a91c3dad057660bde47b01999555a10208de410c1d817ee8f9da60"
+            "hash": "8f3347cab4acd48b22f92a63f59d78e539fc3efad356afbad59d59f0bd308260"
         }
     },
     "shortcuts": [
