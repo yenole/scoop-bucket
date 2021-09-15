@@ -1,7 +1,7 @@
 {
     "version": "20.10.8",
     "description": "Run the latest master build of docker client and engine",
-    "homepage": "https://master.dockerproject.org",
+    "homepage": "https://download.docker.com",
     "license": "Apache-2.0",
     "notes": [
         "Make sure to have container features enabled (will need a restart afterwards):",
