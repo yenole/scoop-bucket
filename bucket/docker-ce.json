@@ -1,5 +1,5 @@
 {
-    "version": "20.10.8",
+    "version": "20.10.9",
     "description": "Run the latest master build of docker client and engine",
     "homepage": "https://download.docker.com",
     "license": "Apache-2.0",
@@ -42,7 +42,7 @@
         "sudo",
         "lcow"
     ],
-    "url": "https://download.docker.com/win/static/stable/x86_64/docker-20.10.8.zip",
+    "url": "https://download.docker.com/win/static/stable/x86_64/docker-20.10.9.zip",
     "extract_dir": "docker",
     "bin": [
         "dockerd.exe",
