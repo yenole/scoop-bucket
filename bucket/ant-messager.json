@@ -1,0 +1,29 @@
+{
+    "version": "1_4_28",
+    "description": "Secure · Fast · Free · Encryption End-to-End messaging",
+    "homepage": "https://www.antchat.im/",
+    "license": "Freeware",
+    "url": "https://ant.rgshipin.com/Antmessenger_1_4_28_install.exe#/dl.7z",
+    "hash": "e5f5914c1915c67b84e3d0ac87a42391b70c5b07f8a9ee701d7353c51314a8e8",
+    "extract_dir": "$PLUGINSDIR",
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\*\" -Exclude \"app-64.7z\"",
+            "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\app-64.7z\""
+        ]
+    },
+    "shortcuts": [
+        [
+            "Ant Messenger.exe",
+            "Ant Messenger"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.antchat.im/static/config.js",
+        "regex": "Antmessenger_([\\w-]+)_install.exe"
+    },
+    "autoupdate": {
+        "url": "https://ant.rgshipin.com/Antmessenger_$version_install.exe#/dl.7z"
+    }
+}
