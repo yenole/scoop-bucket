@@ -1,10 +1,10 @@
 {
-    "version": "3.4.0",
+    "version": "3.4.5",
     "description": "WeChat for Windows",
     "homepage": "https://pc.weixin.qq.com/",
     "license": "Freeware",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/wechat.7z",
-    "hash": "8986782fce19402b989fd43def39338aab91822dac2ea27ae302e7aca79ef3ba",
+    "hash": "852c5ebf11f3fd1e87ca3913773efcdd2ba0bf96dc188ae2a9d06cb37040a664",
     "shortcuts": [
         [
             "WeChat.exe",
