@@ -1,10 +1,10 @@
 {
-    "version": "1_4_29",
+    "version": "1_4_30",
     "description": "Secure · Fast · Free · Encryption End-to-End messaging",
     "homepage": "https://www.antchat.im/",
     "license": "Freeware",
-    "url": "https://ant.rgshipin.com/Antmessenger_1_4_29_install.exe#/dl.7z",
-    "hash": "92b7026b9efc51b095e130f28eac8ade384c421b39a0052fb7a2465e09734b88",
+    "url": "https://ant.rgshipin.com/Antmessenger_1_4_30_install.exe#/dl.7z",
+    "hash": "e609ecf1b3b6c5858f74544febe55dd62a012e3c2200274d305d6cdab78cea1d",
     "extract_dir": "$PLUGINSDIR",
     "installer": {
         "script": [
