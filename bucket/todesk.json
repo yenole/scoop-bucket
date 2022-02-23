@@ -7,8 +7,7 @@
     "hash": "ed3e3fab28dc40fb1f7256583c25a621d32c53bb8bc663838511b56261cc95ba",
     "installer": {
         "script": [
-            "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\"",
-            "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\app.7z\" -Force -Recurse"
+            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
         ]
     },
     "shortcuts": [
