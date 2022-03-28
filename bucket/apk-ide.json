@@ -1,0 +1,15 @@
+{
+    "version": "v3.3",
+    "description": "ApkTool,Dex2jar,JD-GUI,JAD,Skin#,SharpDevelop,GongShell and yes! GOOGLE",
+    "homepage": "http://www.popotu.com/",
+    "license": "Freeware",
+    "url": "https://down.52pojie.cn/Tools/Android_Tools/ApkIDE_v3.3.rar",
+    "hash": "d8464eda564793c75f8a17b13c5eb2159f7444b622803ed2d831db814ec80cc2",
+    "extract_dir": "ApkIDE",
+    "shortcuts": [
+        [
+            "ApkIDE.exe",
+            "ApkIDE"
+        ]
+    ]
+}
