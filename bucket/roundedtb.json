@@ -3,6 +3,7 @@
     "description": "A tool to add margins, rounded corners and segments to the taskbar",
     "homepage": "https://github.com/Gniang/RoundedTB",
     "license": "GPL-3.0-only",
+    "extract_dir": "RoundedTB_canary20231001/RoundedTB",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Gniang/RoundedTB/releases/download/canary20231001/RoundedTB_canary20231001.7z",
@@ -20,6 +21,7 @@
         "regex": "/releases/tag/canary([\\d.]+)"
     },
     "autoupdate": {
+        "extract_dir": "RoundedTB_canary$version/RoundedTB",
         "architecture": {
             "64bit": {
                 "url": "https://github.com/Gniang/RoundedTB/releases/download/canary$version/RoundedTB_canary$version.7z"
