@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RoundedTB/RoundedTB/releases/download/canary$version/RoundedTB_canary$version.zip"
+                "url": "https://github.com/Gniang/RoundedTB/releases/download/canary$version/RoundedTB_canary$version.zip"
             }
         }
     }
