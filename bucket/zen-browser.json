@@ -9,9 +9,9 @@
             "hash": "fbabc392f9bc80e98ecdd790c5974beaaaf8b55bec0c504e27ddbbea86062770"
         }
     },
-    "extract_dir": "core",
+    "extract_dir": "zen",
     "post_install": [
-        "firefox -CreateProfile \"Scoop $persist_dir\\profile\"",
+        "zen -CreateProfile \"Scoop $persist_dir\\profile\"",
         "$Addition = \"$persist_dir\\addition\"",
         "if (Test-Path $Addition) {",
         "  info 'Copying additional items...'",
