@@ -1,5 +1,5 @@
 {
-    "version": "4.10.0",
+    "version": "4.11.0",
     "description": "Open Source Computer Vision Library",
     "homepage": "https://opencv.org/",
     "license": "Apache-2.0",
@@ -12,9 +12,9 @@
     "extract_dir": "opencv\\build",
     "env_set": {
         "OPENCV_DIR": "$dir\\x64\\vc16",
-        "OPENCV_INCLUDE_PATHS":"$dir\\include",
-        "OPENCV_LINK_LIBS":"opencv_world4110",
-        "OPENCV_LINK_PATHS":"$dir\\x64\\vc16\\lib"
+        "OPENCV_INCLUDE_PATHS": "$dir\\include",
+        "OPENCV_LINK_LIBS": "opencv_world4110",
+        "OPENCV_LINK_PATHS": "$dir\\x64\\vc16\\lib"
     },
     "env_add_path": "x64\\vc16\\bin",
     "checkver": {
