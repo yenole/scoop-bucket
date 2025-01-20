@@ -11,12 +11,15 @@
     },
     "extract_dir": "opencv\\build",
     "env_set": {
-        "OPENCV_DIR": "$dir\\x64\\vc14"
+        "OPENCV_DIR": "$dir\\x64\\vc14",
+        "OPENCV_INCLUDE":"$dir\\include",
+        "OPENCV_LINK_LIBS":"opencv_world4110",
+        "OPENCV_LINK_PATHS":"$dir\\x64\\vc16\\lib"
     },
     "env_add_path": "x64\\vc14\\bin",
     "checkver": {
-        "url": "https://opencv.org/releases/",
-        "regex": "\\*\\s</span>OpenCV &#8211; ([\\d.]+)"
+        "url": "https://github.com/opencv/opencv",
+        "regex": "/releases/tag/([\\d.]+)" 
     },
     "autoupdate": {
         "architecture": {
